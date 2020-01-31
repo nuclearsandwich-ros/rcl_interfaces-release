@@ -1,0 +1,12 @@
+Source: ros-turbulent-builtin-interfaces
+Section: misc
+Priority: extra
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-turbulent-ament-cmake, ros-turbulent-ament-lint-common, ros-turbulent-rosidl-default-generators, ros-turbulent-ros-workspace, ros-turbulent-rmw-connext-cpp, ros-turbulent-rmw-fastrtps-cpp, ros-turbulent-rmw-implementation, ros-turbulent-rmw-opensplice-cpp, ros-turbulent-rosidl-typesupport-connext-c, ros-turbulent-rosidl-typesupport-connext-cpp, ros-turbulent-rosidl-typesupport-opensplice-c, ros-turbulent-rosidl-typesupport-opensplice-cpp
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-builtin-interfaces
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-turbulent-rosidl-default-runtime, ros-turbulent-ros-workspace
+Description: A package containing message and service definitions for types defined in the OMG IDL Platform Specific Model.
