@@ -1,0 +1,12 @@
+Source: ros-turbulent-action-msgs
+Section: misc
+Priority: extra
+Maintainer: Karsten Knese <karsten@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-turbulent-ament-cmake, ros-turbulent-ament-lint-auto, ros-turbulent-ament-lint-common, ros-turbulent-builtin-interfaces, ros-turbulent-rosidl-default-generators, ros-turbulent-unique-identifier-msgs, ros-turbulent-ros-workspace, ros-turbulent-rmw-connext-cpp, ros-turbulent-rmw-fastrtps-cpp, ros-turbulent-rmw-implementation, ros-turbulent-rmw-opensplice-cpp, ros-turbulent-rosidl-typesupport-connext-c, ros-turbulent-rosidl-typesupport-connext-cpp, ros-turbulent-rosidl-typesupport-opensplice-c, ros-turbulent-rosidl-typesupport-opensplice-cpp
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-action-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-turbulent-builtin-interfaces, ros-turbulent-rosidl-default-runtime, ros-turbulent-unique-identifier-msgs, ros-turbulent-ros-workspace
+Description: Messages and service definitions common among all ROS actions.
