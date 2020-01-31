@@ -1,0 +1,70 @@
+ros-turbulent-action-msgs (0.8.0-2bionic) bionic; urgency=high
+
+
+
+ -- Karsten Knese <karsten@osrfoundation.org>  Thu, 26 Sep 2019 07:00:00 -0000
+
+ros-turbulent-action-msgs (0.7.4-2bionic) bionic; urgency=high
+
+
+
+ -- Karsten Knese <karsten@osrfoundation.org>  Wed, 29 May 2019 07:00:00 -0000
+
+ros-turbulent-action-msgs (0.7.3-2bionic) bionic; urgency=high
+
+
+
+ -- Karsten Knese <karsten@osrfoundation.org>  Mon, 20 May 2019 07:00:00 -0000
+
+ros-turbulent-action-msgs (0.7.2-2bionic) bionic; urgency=high
+
+  * Add fields for response code to action_msgs/CancelGoal service (#76 <https://github.com/ros2/rcl_interfaces/issues/76>)
+  * Contributors: Jacob Perron
+
+ -- Karsten Knese <karsten@osrfoundation.org>  Wed, 08 May 2019 07:00:00 -0000
+
+ros-turbulent-action-msgs (0.7.1-2bionic) bionic; urgency=high
+
+
+
+ -- Karsten Knese <karsten@osrfoundation.org>  Fri, 26 Apr 2019 07:00:00 -0000
+
+ros-turbulent-action-msgs (0.7.0-2bionic) bionic; urgency=high
+
+
+
+ -- Karsten Knese <karsten@osrfoundation.org>  Sun, 14 Apr 2019 07:00:00 -0000
+
+ros-turbulent-action-msgs (0.6.2-2bionic) bionic; urgency=high
+
+
+
+ -- Karsten Knese <karsten@osrfoundation.org>  Fri, 11 Jan 2019 08:00:00 -0000
+
+ros-turbulent-action-msgs (0.6.1-2bionic) bionic; urgency=high
+
+  * Change UUID type in action_msgs (#54 <https://github.com/ros2/rcl_interfaces/issues/54>)
+  * Contributors: Alexis Pojomovsky
+
+ -- Karsten Knese <karsten@osrfoundation.org>  Thu, 06 Dec 2018 08:00:00 -0000
+
+ros-turbulent-action-msgs (0.6.0-2bionic) bionic; urgency=high
+
+  * Add action_msgs package (#41 <https://github.com/ros2/rcl_interfaces/issues/41>)
+  * Contributors: Jacob Perron
+
+ -- Karsten Knese <karsten@osrfoundation.org>  Fri, 16 Nov 2018 08:00:00 -0000
+
+ros-turbulent-action-msgs (0.5.0-2bionic) bionic; urgency=high
+
+
+
+ -- Karsten Knese <karsten@osrfoundation.org>  Sun, 24 Jun 2018 07:00:00 -0000
+
+ros-turbulent-action-msgs (0.4.0-2bionic) bionic; urgency=high
+
+
+
+ -- Karsten Knese <karsten@osrfoundation.org>  Fri, 08 Dec 2017 08:00:00 -0000
+
+
