@@ -1,0 +1,13 @@
+Source: ros-verystable-rosgraph-msgs
+Section: misc
+Priority: optional
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-verystable-ament-cmake, ros-verystable-ament-lint-common, ros-verystable-builtin-interfaces, ros-verystable-rosidl-default-generators, ros-verystable-ros-workspace, ros-verystable-rmw-connext-cpp, ros-verystable-rmw-fastrtps-cpp, ros-verystable-rmw-implementation, ros-verystable-rmw-opensplice-cpp, ros-verystable-rosidl-typesupport-connext-c, ros-verystable-rosidl-typesupport-connext-cpp, ros-verystable-rosidl-typesupport-opensplice-c, ros-verystable-rosidl-typesupport-opensplice-cpp
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-verystable-rosgraph-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-verystable-builtin-interfaces, ros-verystable-rosidl-default-runtime, ros-verystable-ros-workspace
+Description: Messages relating to the ROS Computation Graph.
+ These are generally considered to be low-level messages that end users do not interact with.
