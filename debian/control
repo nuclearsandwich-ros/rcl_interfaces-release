@@ -1,0 +1,12 @@
+Source: ros-testing-test-msgs
+Section: misc
+Priority: optional
+Maintainer: Karsten Knese <karsten@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-testing-action-msgs, ros-testing-ament-cmake, ros-testing-ament-cmake-gtest, ros-testing-ament-lint-auto, ros-testing-ament-lint-common, ros-testing-builtin-interfaces, ros-testing-rosidl-default-generators, ros-testing-test-interface-files, ros-testing-ros-workspace, ros-testing-rosidl-typesupport-connext-c, ros-testing-rosidl-typesupport-connext-cpp, ros-testing-rosidl-typesupport-fastrtps-c, ros-testing-rosidl-typesupport-fastrtps-cpp
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-testing-test-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-testing-action-msgs, ros-testing-builtin-interfaces, ros-testing-rosidl-default-runtime, ros-testing-ros-workspace
+Description: A package containing message definitions and fixtures used exclusively for testing purposes.
