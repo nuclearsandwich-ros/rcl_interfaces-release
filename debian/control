@@ -1,0 +1,12 @@
+Source: ros-testing-composition-interfaces
+Section: misc
+Priority: optional
+Maintainer: Shane Loretz <sloretz@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-testing-ament-cmake, ros-testing-ament-lint-common, ros-testing-rcl-interfaces, ros-testing-rosidl-default-generators, ros-testing-ros-workspace, ros-testing-rosidl-typesupport-connext-c, ros-testing-rosidl-typesupport-connext-cpp, ros-testing-rosidl-typesupport-fastrtps-c, ros-testing-rosidl-typesupport-fastrtps-cpp
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-testing-composition-interfaces
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-testing-rcl-interfaces, ros-testing-rosidl-default-runtime, ros-testing-ros-workspace
+Description: A package containing message and service definitions for managing composable nodes in a container process.
