@@ -1,0 +1,12 @@
+Source: ros-testing-builtin-interfaces
+Section: misc
+Priority: optional
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-testing-ament-cmake, ros-testing-ament-lint-common, ros-testing-rosidl-default-generators, ros-testing-ros-workspace, ros-testing-rosidl-typesupport-connext-c, ros-testing-rosidl-typesupport-connext-cpp, ros-testing-rosidl-typesupport-fastrtps-c, ros-testing-rosidl-typesupport-fastrtps-cpp
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-testing-builtin-interfaces
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-testing-rosidl-default-runtime, ros-testing-ros-workspace
+Description: A package containing message and service definitions for types defined in the OMG IDL Platform Specific Model.
